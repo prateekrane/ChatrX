@@ -54,7 +54,7 @@ const LoginScreen = ({ navigation }) => {
     const handleLogin = async () => {
         setIsLoading(true);
         try {
-            const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBmyk1CJ0Z1oTsxXL_kA67KHjz3F3AoSBc", {
+            const response = await fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
