@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ChatRoom",
+    "slug": "ChatRoom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main_Icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/main_Icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.pratee_k7.ChatRoom"
+    },
+    "web": {
+      "favicon": "./assets/main_Icon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bede7413-5b70-4229-ba85-8b8e62af86a7"
+      }
+    }
+  }
+}
