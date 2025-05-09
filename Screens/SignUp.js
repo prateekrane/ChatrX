@@ -94,7 +94,7 @@ const SignUpScreen = ({ navigation }) => {
             }
 
             // 1. Create user account
-            const signUpResponse = await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBmyk1CJ0Z1oTsxXL_kA67KHjz3F3AoSBc', {
+            const signUpResponse = await fetch('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=', {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
