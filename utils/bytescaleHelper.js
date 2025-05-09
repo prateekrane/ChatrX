@@ -2,7 +2,7 @@ import * as Bytescale from "@bytescale/sdk";
 import * as FileSystem from 'expo-file-system';
 
 const uploadManager = new Bytescale.UploadManager({
-    apiKey: "public_223k29C8zHH8eBkMjmFmwVeyPc1F"
+    apiKey: ""
 });
 
 const uploadToByteScale = async (fileUri) => {
